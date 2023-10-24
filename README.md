@@ -2,6 +2,7 @@
 These should be the minimum steps required to get AudioSep up and running locally
 
 ```shell
+pyenv virtualenv 3.10.9 audiosep
 pip install torch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1
 pip install -r requirements.txt
 ```
